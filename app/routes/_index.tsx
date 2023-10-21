@@ -25,11 +25,11 @@ export default function Index() {
           <Step step={3} currentStep={step} />
           <Step step={4} currentStep={step} />
         </div>
-        <div className="w-full my-8 space-y-2">
+        <div className="w-full my-8 space-y-2 animate-pulse duration-150">
           <h1 className="h-6 my-3 max-w-xs bg-slate-100 rounded-md"></h1>
-          <p className="h-4 max-w-lg bg-slate-100 rounded-md"></p>
-          <p className="h-4 max-w-md bg-slate-100 rounded-md"></p>
-          <p className="h-4 max-w-sm bg-slate-100 rounded-md"></p>
+          <p className="h-4 w-40 bg-slate-100 rounded-md"></p>
+          <p className="h-4 w-56 bg-slate-100 rounded-md"></p>
+          <p className="h-4 w-32 bg-slate-100 rounded-md"></p>
         </div>
         <div className="flex flex-row justify-between">
           <button
